@@ -6,6 +6,7 @@ window.onload = function() {
     gsap.from("#companies-container", {
         y: 100,
         duration: 0.5,
+        delay:1
         // Uncomment the following line if you want to add rotation
     });
 };
